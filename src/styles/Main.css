@@ -46,7 +46,9 @@
    --font: 'Roboto', sans-serif;
 
    /* * Size * */
-   --baseFontSize: 2rem;
+   --baseFontSize: 1.5rem;
+   /* --baseFontScale: .25;
+   font-size: calc(16px * var(--baseFontScale)); */
    --baseNavSize: 1rem;
    --smallFontSize: 0.875rem;
    --smallestFontSize: 1.5rem;
@@ -230,17 +232,26 @@ div.container>* {
 }
 
 div.hero {
-   background-color: var(--white-40);
-   display: flex;
+   /* background-color: var(--white-40); */
+   display: grid;
+   grid-template-columns: 3fr 2fr;
    align-items: center;
    justify-content: space-evenly;
+   /* max-width: 100%; */
+}
+
+div.hero-image {
+   width: 100%;
+}
+
+div.hero-image>img {
+   width: 100%;
 }
 
 div.hero-cta {
    display: flex;
    /* height: 40%;
-   min-height: 40vh;
-   width: 100%; */
+   min-height: 40vh; */
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -623,13 +634,18 @@ div.thankyou-close-button {
    }
 
    div.hero {
-      flex-direction: column;
+      grid-template-columns: 1fr;
       max-width: 100%;
    }
 
-   .hero-image {
+   div.hero-image {
       width: 100%;
       overflow: hidden;
+   }
+
+   div.hero-image>img {
+      width: 100%;
+      /* max-width: 939px; */
    }
 
    div.hero-cta {
@@ -747,8 +763,8 @@ div.thankyou-close-button {
       font-size: var(--heading-two);
    }
 
-   .hero-image>img {
-      width: 110%;
+   div.hero-image>img {
+      width: 100%;
       margin: 0 auto;
    }
 

@@ -7,7 +7,7 @@ const LocationBanner = ({ children }) => {
       <h3>{children}</h3>
       <div>
         {json.locations.map(card => (
-          <div className="location">
+          <div className="location" key={card.title}>
             <h4>{card.title}</h4>
             <p>{card.address}</p>
           </div>
