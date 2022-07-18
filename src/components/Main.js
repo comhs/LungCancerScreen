@@ -12,7 +12,7 @@ function Main() {
   return (
     <div>
       <Header />
-      <Hero darkText="true" phone="(219) 703-2088">
+      <Hero darkText="true" phone="(219) 703-2088" ctaButton="false">
         To learn more and<br />
         schedule your lung<br />
         cancer screening, call
