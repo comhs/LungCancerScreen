@@ -10,6 +10,10 @@
   transform: scaleX(-1);
 }
 
+.hero-phone {
+  padding: 10px 0;
+}
+
 .hero-image {
   position: relative;
 }
@@ -33,7 +37,6 @@
   font-style: italic;
   font-size: 1.3em;
   color: var(--black-20);
-  /* padding: 10px 20px; */
   width: 75%;
 }
 
