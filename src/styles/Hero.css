@@ -28,3 +28,24 @@
                                 transparent 80%,
                                 var(--hero-background-color) 100%)
 }
+
+.hero-cta>.disclaimer {
+  font-style: italic;
+  font-size: 1.3em;
+  color: var(--black-20);
+  /* padding: 10px 20px; */
+  width: 75%;
+}
+
+@media (max-width: 900px) {
+  .hero-cta>.disclaimer {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-cta>.disclaimer {
+    width: 90%;
+  }
+}

@@ -22,6 +22,7 @@ function Hero({ children, phone, darkText, ctaButton }) {
       <div className="hero-cta">
         <h1 className={darkText === "true" ? "headline-dark" : "headline"}>{children}</h1>
         <a href={"tel:" + phone.replace(/[^0-9]/g, "")} className="hero-phone">{phone.replace(/\s/, '\u00A0')}</a>
+        <p className="disclaimer">A physician referral is needed for this screening. If you do not have a physician, we can help you find one <a href='https://www.comhs.org/healthyjourney'>here</a>.</p>
         {
           ctaButton === "true" ?
             <div className="hero-button" id="mainBtn">Request&nbsp;an&nbsp;Appointment</div> :
