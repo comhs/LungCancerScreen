@@ -241,10 +241,7 @@ div.hero {
    /* max-width: 100%; */
 }
 
-div.hero-image {
-   width: 100%;
-}
-
+div.hero-image,
 div.hero-image>img {
    width: 100%;
    height: 100%;
