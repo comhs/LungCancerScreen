@@ -123,7 +123,7 @@ h1.headline,
 h1.headline-dark {
    font-size: var(--heading-hero);
    font-weight: var(--weight-black);
-   line-height: 54px;
+   line-height: 1.2;
    color: var(--white);
 }
 
@@ -189,6 +189,7 @@ p.small {
 
 a {
    text-decoration: none;
+   color: var(--cta-color);
 }
 
 li {
@@ -602,7 +603,7 @@ div.thankyou-close-button {
    h2 {
       font-size: 48px;
    }
-   
+
    h2.xl-heading {
       font-size: 2rem;
       font-weight: var(--weight-bold);
@@ -617,7 +618,7 @@ div.thankyou-close-button {
       font-size: 28px;
    }
 
-   
+
 
    header {
       flex-direction: column;
