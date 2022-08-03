@@ -1,11 +1,15 @@
 {
   "images": [
     {
-      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/ONC/LungScreen/2022/hero1.png",
+      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/ONC/LungScreen/2022/hero1",
       "alt": "Hero of man hugging his granddaughter"
     },
     {
-      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/ONC/LungScreen/2022/hero2.png",
+      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/ONC/LungScreen/2022/hero3",
+      "alt": "Three women hugging and smiling"
+    },
+    {
+      "url": "https://www.comhs.org/~/media/Images/Community-Healthcare-Only/Campaigns/ONC/LungScreen/2022/hero2",
       "alt": "Portrait of man standing on the street "
     }
   ]
