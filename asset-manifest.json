@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/LungCancerScreen/static/css/main.faaada65.css",
-    "main.js": "/LungCancerScreen/static/js/main.df7420ce.js",
+    "main.css": "/LungCancerScreen/static/css/main.4d30eb07.css",
+    "main.js": "/LungCancerScreen/static/js/main.217ac7b4.js",
     "index.html": "/LungCancerScreen/index.html"
   },
   "entrypoints": [
-    "static/css/main.faaada65.css",
-    "static/js/main.df7420ce.js"
+    "static/css/main.4d30eb07.css",
+    "static/js/main.217ac7b4.js"
   ]
 }
